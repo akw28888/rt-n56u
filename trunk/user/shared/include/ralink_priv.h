@@ -221,6 +221,9 @@ typedef struct _PAIR_CHANNEL_FREQ_ENTRY
 #elif defined (BOARD_360P2)
 #define OFFSET_MAC_GMAC0	0xFFE8
 #define OFFSET_MAC_GMAC2	0xFFEE
+#elif defined (BOARD_GL-MT1300)
+#define OFFSET_MAC_GMAC0        0x4000
+#define OFFSET_MAC_GMAC2        0x4006
 #else
 #define OFFSET_MAC_GMAC0	0x0028
 #define OFFSET_MAC_GMAC2	0x0022
